@@ -213,7 +213,7 @@ td .btn{
 td .btn:last-child{
 	margin-right: 0px;
 }
-.acoes{
+.acoes, .valor{
 	width: 230px;
 }
 .btn-excluir{
