@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Cadastrar Transação | Projeto T.P.R.M</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="../assets/css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="centro">
+			<a href="" class="logo">T.P.R.M</a>
+			<nav>
+				<ul>
+					<li><a href="#">Cadastrar empresa</a></li>
+					<li>
+						<a href="#">Serviço</a>
+						<ul class="submenu">
+							<li><a href="cadastrar-servico.html">Cadastrar</a></li>
+							<li><a href="listar-servico.html">Listar</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Valor devido</a></li>
+					<li><a href="#">Sair</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+	<div class="main">
+		<div class="centro">
+			<h1>Cadastrar Serviço</h1>
+			<form class="form-cadastro" action="">
+				<div class="row">
+					<div class="col">
+						<div class="campo">
+							<input id="tipo-servico" type="text" placeholder="Tipo de serviço">
+						</div>
+						<div class="campo">
+							<input id="valor-servico" type="text" placeholder="Valor do serviço">
+						</div>
+					</div>
+					<div class="col">
+						<div class="campo">
+							<textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descrição"></textarea>
+						</div>
+					</div>
+				</div>
+				<button id="btn-cadastrar" class="btn btn-entrar float-right" type="submit">Cadastrar</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
