@@ -255,3 +255,16 @@ td .btn:last-child{
 .btn-excluir:hover{
 	background: #bf2231
 }
+/*LISTAR TRANSACOES*/
+.aprovado{
+	color: #48ca06;
+    font-weight: bold;
+}
+.reprovado{
+	color: #dc3545;
+    font-weight: bold;
+}
+.pendente{
+	color: #ff9900;
+    font-weight: bold;
+}
