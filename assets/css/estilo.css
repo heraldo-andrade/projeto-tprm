@@ -249,11 +249,20 @@ td .btn:last-child{
 .acoes, .valor{
 	width: 230px;
 }
+.acoes-status{
+	width: 260px;
+}
 .btn-excluir{
 	background: #dc3545;
 }
 .btn-excluir:hover{
 	background: #bf2231
+}
+.btn-aprovar{
+	background: #54a22c;
+}
+.btn-aprovar:hover{
+	background: #40841e;
 }
 /*LISTAR TRANSACOES*/
 .aprovado{
